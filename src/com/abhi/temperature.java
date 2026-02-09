@@ -10,6 +10,6 @@ public class temperature {
 
          float f = (9/5)*celc +32;
         System.out.println("The temperature in Farenheit is " +f);
-ri
+
     }
 }
