@@ -1,0 +1,15 @@
+package com.abhi;
+
+import java.util.Scanner;
+
+public class temperature {
+    public static void main(String[] args) {
+        Scanner temp= new Scanner(System.in);
+        System.out.println("Enter temperature in oC");
+        float celc = temp.nextFloat();
+
+         float f = (9/5)*celc +32;
+        System.out.println("The temperature in Farenheit is " +f);
+
+    }
+}
